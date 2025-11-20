@@ -95,7 +95,6 @@ p{
     font-weight:700;
     font-size:1.2rem;
     letter-spacing: 1px;
-    margin-bottom:2rem;
 }
 .service:hover{
     background-color:rgb(140, 200, 206);
@@ -103,4 +102,5 @@ p{
 }
 .right img{
     padding-left:7rem;
+
 }
