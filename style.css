@@ -71,6 +71,7 @@ body{
 #h1{
     font-size:3rem;
     font-weight:700;
+    margin-top:5rem;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
@@ -104,3 +105,4 @@ p{
     padding-left:7rem;
 
 }
+
