@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+     margin:0; 
+    padding: 0; 
+}
+body{
+    color:#333;
+    line-height:1.6;
+    font-family:'Arial','sans-serif';
+}
+.container{
+    margin:0 auto;
+    max-width:100vh;
+    padding:0 20px;
+}
+.header{
+    position:fixed;
+    background-color: white;
+    width:100%;
+    padding:1rem 0;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.logo h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:2rem;
+}
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    padding:0.5rem, 1rem;
+    border-radius:4px;
+    transition:background-color 0.3s ease;
+}
+.nav-links a:hover{
+    background-color:dimgrey;
+}
+.username{
+    background-color:rgb(221, 245, 247);
+    color:rgb(16, 153, 163);
+    height:7vh;
+    width:15vh;
+    text-align:center;
+    border-radius:7px;
+}
+.username:hover{
+    background-color:rgb(163, 221, 226);
+}
+.hero{
+    display:flex;
+    justify-content:space-between;   
+    align-items: center;
+    height:100vh;
+    margin-left: 100px;
+    max-width:150vh;
+    letter-spacing: 2px;
+    padding-top:7rem;
+}
+#h1{
+    font-size:3rem;
+    font-weight:700;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+#h2{
+    font-size:3rem;
+    color:rgb(27, 168, 179);
+    margin-top:0;
+    letter-spacing: 2px;
+}
+p{
+    font-size:1.2rem;
+    color:#333;
+    letter-spacing:0.7px;
+}
+.service{
+    background-color: rgb(27, 168, 179);
+    color:white;
+    border-radius:15px;
+    border:none;
+    padding:2rem 2rem 2rem 2rem; /*to increase the box size*/
+    display:inline-block;
+    font-weight:700;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    margin-bottom:2rem;
+}
+.service:hover{
+    background-color:rgb(140, 200, 206);
+    transform: tarnslateY(-2px);
+}
+.right img{
+    padding-left:7rem;
+}
