@@ -20,7 +20,7 @@ body{
     padding:1rem 0;
     top:0;
     left:0;
-    z-index:1000;
+    z-index:900;
 }
 .navbar{
     display:flex;
@@ -105,4 +105,5 @@ p{
     padding-left:7rem;
 
 }
+
 
